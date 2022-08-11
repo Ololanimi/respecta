@@ -1,0 +1,30 @@
+.memories-page-text{
+    font-weight: 700;
+    font-size: 3.8rem;
+    color: white;
+    line-height: 59px;
+    margin-top: 220px;
+    letter-spacing: 3px;
+    padding: 0 300px;
+    white-space: nowrap;
+    font-family: "Montserrat", sans-serif;
+}
+.memories-page-text span{
+    margin-left: 90px;
+}
+@media  screen and (max-width: 375px){
+    .memories-page-text{
+        font-size: 24.5px;
+        padding: 3px 9px;
+        line-height: 30px;
+    }
+    .memories-page-text span{
+       margin: 0 45px !important;
+    }
+}
+@media  screen and (max-width: 366px){
+    .memories-page-text{
+        font-size: 23px;
+        padding-left: 16px;
+    }
+}

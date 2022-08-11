@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;600;700&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;600;700&family=Roboto:wght@300;400&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300&family=Montserrat:wght@200;300;500;600;700&family=Roboto:wght@300;400&family=Satisfy&display=swap');
+.cover{
+    height: 100vh;
+    background: #FB8C00;
+}
+.chai{
+    font-size: 17.5px;
+    margin-top: -60px;
+    font-weight: 400;
+    color: #fff !important;
+    font-family: "Montserrat", sans-serif;
+    width: 105%;
+    padding-left: 90px;
+}
+.logos{
+    padding: 40px 115px;
+    cursor: pointer;
+    font-size: 38px;
+    color: #fff !important;
+    font-family: "Satisfy", sans-serif;
+}
+.contact-grid{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-gap: 250px;
+    margin-top: -10px;
+}
+.icone{
+    display: grid;
+    grid-template-rows: auto auto auto ;
+    grid-gap: 20px;
+    padding-left: 150px;
+}
+.fa-star{
+    font-size: 25px;
+    color: #fff;
+    font-weight: 300;
+}
+.inu-icons{
+    display: flex;
+    flex-direction: row;
+}
+.inu-icons i{
+    font-size: 25px;
+    color: #fff;
+}
+.inu-icons p{
+    padding-left: 17px !important;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+}
+.tomo{
+    font-size: 37px;
+    margin: 8px;
+    color: #fff;
+}
+.icono{
+    text-align: center;
+}
+.formm{
+    width: 440px;
+    height: 480px;
+    background: #fff;
+    border-radius: 5px;
+    margin-right: 100px;
+}
+.formm form{
+    margin-top: 27px;
+}
+.words{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-gap: 18px;
+    margin-left: 30px;
+}
+.form-groupo{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-gap: 10px;
+}
+.form-groupo label{
+    padding-left: 23px;
+    color: rgb(116, 110, 110);
+    font-family: "Montserrat", sans-serif;
+}
+.form-groupo input{
+    height: 32px;
+    width: 90%;
+    border-radius: 3px;
+    border: 1px solid rgb(124, 117, 117);
+    margin: auto;
+    outline: none;
+    color: rgb(116, 110, 110);
+    padding-left: 10px;
+    border: 1px solid rgb(173, 166, 166);
+}
+.form-groupo textarea{
+    margin: auto;
+    width: 90%;
+    height: 15em;
+    padding-left: 10px;
+    outline: none;
+    border: 1px solid rgb(173, 166, 166);
+}
+.sub{
+    width: 39%;
+    height: 35px;
+    font-size: 15px;
+    cursor: pointer;
+    background: #FB8C00;
+    color: #fff;
+    border: 2px solid #fff;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 5px;
+    margin: 15px 120px;
+}
+.sub:hover{
+    background: #d67c0d;
+    transition: 0.5s;
+}
+@media  screen and (max-width: 366px){
+    .cover{
+        height: 200vh;
+    }
+    .contact-grid{
+        display: flex;
+        flex-direction: column;
+    }
+    .words{
+        padding-top: 50px;
+    }
+    .icone{
+        margin-left: -120px !important;
+    }
+    .icono{
+        margin-left: -30px !important;
+    }
+    .chai{
+        margin-left: -100px !important;
+        width: 130% !important;
+    }
+    .formm{
+        width: 90%;
+        margin-top: -200px !important;
+        margin-left: 100px;
+    }
+    .sub{
+        margin-left: 100px !important;
+    }
+}
+    

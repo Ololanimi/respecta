@@ -1,0 +1,216 @@
+.create-pro{
+    display: flex;
+    flex-direction: row;
+    font-size: 22px;
+}
+.Head{
+    background: #FB8C00;
+    height: 65px;
+}
+.admin-wrapper{
+    height: calc(100% - 66px);
+    display: flex;
+}
+.admin-wrapper .left-sidebar{
+    flex: 2;
+    height: 89.6vh;
+    background: #E27F01;
+}
+.mang{
+    color: #fff;
+    text-decoration: none;
+}
+.manage-para{
+    height: 65px;
+    width: 100%;
+    padding: 25px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.33);
+    cursor: pointer;
+}
+.manage-para .age-img{
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+}
+.manage-para:hover{
+    background: #a05c03;
+}
+.admin-wrapper .admin-content{
+    flex: 8;
+    height: 100%;
+    padding: 40px 100px 100px;
+}
+.edit{
+    color:  #19790A;
+}
+.remove{
+    color: #E31A1A;
+}
+.publish{
+    color:#10379A;
+}
+.creat{
+    width: 15%;
+    height: 40px;
+    background: #E27F01;
+    padding-top: 7px;
+    border-radius: 7px;
+    text-align: center;
+}
+.shif{
+    margin-left: 20px;
+    width: 22%;
+}
+.mn{
+    color: #fff;
+    text-decoration: none;
+}
+.button-group{
+    display: flex;
+    flex-direction: row;
+}
+.content{
+    margin-top: 20px;
+}
+.content .page-title{
+    text-align: center;
+    color: #5B5B5B;
+    font-size: 30px;
+    font-weight: 500;
+}
+.form-cont{
+    display: grid;
+    grid-template-columns: repeat(2fr, 1);
+}
+.form-cont input{
+    height: 40px;
+    outline: none;
+}
+.form-cont select{
+    height: 30px;
+    background: rgba(196, 196, 196, 0.28);
+}
+.save-users{
+    width: 17%;
+    height: 35px;
+    background: #E27F01;
+    padding-top: 9px;
+    border-radius: 7px;
+    text-align: center;
+    cursor: pointer;
+}
+.nb{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+}
+.save-users p{
+    color: #fff;
+}
+.mol i{
+    display: none;
+}
+.pupu{
+    margin-left: 30px !important;
+}
+.mnop{
+    align-items: center !important;
+    justify-content: center;
+    color: #fff;
+}
+.res{
+    padding-left: 70px;
+    padding-top: 10px;
+}
+@media  screen and (max-width: 375px){
+    .Head{
+        display: block;
+        background: #FB8C00 !important;
+    }
+    .left-sidebar{
+        transform: translate(-100%);
+        position: absolute;
+        width: 70%;
+    }
+    .admin-content .content{
+        width: 170% !important;
+        margin-left: -70px;
+    }
+    .button-group{
+        margin-left: -70px;
+    }
+    .button-group .creat{
+        width: 50%;   
+    }
+    .save-users{
+        width: 40%;
+        margin-bottom: 30px;
+    }
+    .content .page-title{
+        margin-left: -10px ;
+    }
+    .creat{
+        height: 35px;
+        font-size: 13px;
+    }
+    .edic{
+        overflow: scroll;
+    }
+    .create-po{
+        width: 103%;
+    }
+    .shishi{
+        width: 60% !important;
+        height: 35px;
+        font-size: 13px;
+    }
+    .shif{
+        width: 70% !important;
+        height: 35px;
+        font-size: 13px;
+    }
+    .topp, .mann, .mto{
+        margin-left: 30px !important; 
+    }
+    .form-cont{
+        margin-top: 10px;
+    }
+    .content{
+        overflow: scroll;
+    }
+    .content table{
+        width: 200%;
+    }
+    .mol{
+        display: flex;
+        flex-direction: row;
+        padding-left: 190px;
+        padding-top: 20px;
+    }
+    .mol i{
+        display: block;
+        color: #fff;
+    }
+    .sidebar--open{
+        transform: translateX(0%);
+        transition: 0.5s;
+    }
+    .admin-content--open{
+       display: block;
+       transition: 0.5s;
+    }
+}
+@media  screen and (max-width: 375px){
+    .pupu{
+        width: 133%;
+    }
+    .pol{
+        width: 100%;
+    }
+    .poli{
+        margin-left: -100px !important;
+    }
+    .pl{
+        margin-right: 50px !important;
+    }
+}

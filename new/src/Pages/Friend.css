@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;600;700&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;600;700&family=Roboto:wght@300;400&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300&family=Montserrat:wght@200;300;500;600;700&family=Roboto:wght@300;400&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300&family=Montserrat:wght@200;300;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;1,100&family=Satisfy&display=swap');
+.ff-image{
+    background-image: url("../Images/sitting.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    position: relative;
+    width: 100%;
+    background-position: center;
+}
+.neede{
+    z-index: 20000;
+    color: #fff;
+    text-decoration: none;
+}
+.kp{
+    text-align: center;
+    font-size: 18px;
+}
+friend
+.omi{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 300 !important;
+}
+.oferlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+.adeola h1{
+    text-align: center;
+    color: #fff;
+    padding-top: 250px;
+    font-size: 40px;
+    font-weight: 500;
+}
+.second-adeola{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    height: 74em;
+    width: 44%;
+    margin: 0 auto;
+}
+.woos{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    margin: 35px auto;
+    grid-gap: 25px;
+    padding-left: 70px;
+}
+.second-adeola h3{
+    color: rgba(0, 0, 0, 0.74);
+    font-size: 23px;
+    font-weight: 600;
+    text-align: center;
+}
+.record-video{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 69%;
+    height: 70px;
+    background: #FB8C00;
+    border-radius: 18px;
+    color: #fff;
+    font-size: 18px;
+    grid-gap: 20px;
+    align-items: center;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 50px;
+}
+input[type="file"] {
+    display: none;
+}
+.recor{
+    font-size: 20px !important;
+}
+input[type="submit"] {
+    display: none;
+    outline: none;
+}
+.custom-file-upload {
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+.record-video:hover{
+    background: #ca7206;
+    transition: 0.5s;
+}
+.record-video .go{
+    padding-left: 20px;
+    font-size: 50px;
+    border-radius: 6px !important;
+    outline: none;
+}
+.record-video p{
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+}
+.img-sitting{
+    display: flex;
+    flex-direction: column;
+}
+.sito{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: -15px;
+    width: 98%;
+}
+.sito img{
+    width: 94%;
+    height: 150px;
+    border-radius: 7px;
+}
+.js-countdown{
+    width: 89.5%;
+    height: 200px;
+    background: #FFA636;
+    border-radius: 8px;
+    margin-top: -10px !important;
+
+}
+.days p:first-child{
+    width: 75%;
+    height: 80px;
+    margin: 0 auto;
+    padding-top: 15px;
+    border-radius: 6px;
+    background: #FB8C00;
+    font-family: 'Roboto', sans-serif;
+}
+.js-countdown .timer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 1em;
+    text-align: center;
+}
+.days p:last-child{
+    font-weight: 400;
+}
+.days p:first-child, .js-countdown .timer{
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+.js-countdown p{
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+}
+.reminder-part{
+    width: 89.5%;
+    height: 95px;
+    background: #FFA636;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px;
+}
+.stroke{
+    width: 2px;
+    background: #fff;
+    height: 60px;
+}
+.subb p{
+    padding-top: 7px;
+    font-size: 12px !important;
+    font-family: 'Roboto', sans-serif;
+}
+.digits{
+    width: 45px;
+    text-align: center;
+    height: 46px;
+    border-radius: 7px;
+    background: #FB8C00;
+    margin-left: 15px;
+}
+.digits h4{
+    font-size: 35px;
+    color: #fff;
+}
+.reminder1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.reminder1 p,
+.reminder2 p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+.reminder2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.remid{
+    display: flex;
+    flex-direction: column;
+}
+.what-know{
+    width: 90%;
+    height: 450px;
+    background: rgba(196, 196, 196, 0.63);
+    border-radius: 8px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.wap{
+    margin: 20px auto;
+    font-size: 23px;
+    color: rgba(251, 140, 0, 0.86);
+    font-weight: 600;
+}
+.content-know{
+    width: 95%;
+    margin: 0 15px; 
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-row-gap: 30px;
+}
+.content-know p i{
+    color: #111;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.52);
+    font-family: "Roboto", sans-serif;
+}
+.second-p{
+    padding-top: 10px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.67);
+}
+.this-for p{
+    color: rgba(0, 0, 0, 0.8);
+}
+.this-for ul{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.this-for ul li{
+    color: rgba(0, 0, 0, 0.67);
+}
+.last-friend{
+    width: 81%;
+    display: grid;
+    margin-top: 10px;
+    grid-template-columns: auto auto;
+}
+.copy{
+    background: #152131;
+    width: 80%;
+    height: 50px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 6px;
+    display: flex;
+    margin-left: 40px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.copyy p{
+    color: #fff;
+    font-family: "Hind Vadodara", sans-serif;
+}
+.copyy{
+    background: #152131;
+    width: 85%;
+    height: 50px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+}
+.copy i{
+    padding-right: 25px;
+}
+.copy p{
+    color: #fff;
+    font-family: "Hind Vadodara", sans-serif;
+}
+.fle{
+    background: transparent !important;
+}
+@media  screen and (max-width: 375px){
+    .ff-image{
+        height: 70vh;
+    }
+    .adeola h1{
+        font-size: 27px;
+    }
+    .woos{
+        margin-left: -150px !important;
+    }
+    .second-adeola {
+        height: 95em;
+        width: 60%;
+        margin: 0 125px;
+    }
+    .second-adeola h3{
+        margin-left: -100px !important;
+        font-size: 18px;
+    }
+    .record-video{
+        width: 60%;
+    }
+    .record-video p{
+        font-size: 14px;
+    }
+    .record-video  .go{
+        margin-left: -25px !important;
+        font-size: 25px;
+    }
+    .sito{
+        display: flex;
+        flex-direction: column;
+    }
+    .sito img{
+        width: 45%;
+        height: 45%;
+        margin: 0 auto;
+    }
+    .days p:first-child, .js-countdown .timer{
+        font-size: 25px;
+    }
+    .days p:first-child{
+        height: 60px;
+    }
+    .js-countdown{
+        height: 160px;
+    }
+    .wap{
+        font-size: 18px;
+    }
+    .content-know p i{
+        font-size: 13px;
+    }
+    .what-know{
+        height: 35em !important;
+    }
+    .second-p{
+        font-size: 14.5px !important;
+    }
+    .hav{
+        width: 96%;
+    }
+    .last-friend{
+        display: flex;
+        flex-direction: column;
+    }
+    .copyy{
+        width: 55%;
+        margin: 15px auto;
+        font-size: 13px !important;
+    }
+    .copy{
+        width: 55%;
+        margin: 0 auto;
+        font-size: 13px !important;
+    }
+    .reminder-part{
+        display: grid;
+        grid-template-rows: auto auto;
+        width: 90% !important;
+    }
+    .remin{
+        font-size: 12px !important;
+    }
+    .vid{
+        font-size: 12px !important;
+    }
+    .reminder1{
+        width: 130%;
+        padding-top: 10px;
+    }
+    .reminder2{
+        width: 55%;
+        padding-top: 10px;
+    }
+    .subb p{
+        font-size: 10px !important;
+    }
+    .subb .se{
+        margin-left: -13px !important;
+    }
+    .stroke{
+        margin-top: 20px;
+    }
+    .digits{
+        width: 35px;
+        height: 35px;
+    }
+    .digits h4{
+        font-size: 26px !important;
+    }
+}
+@media  screen and (max-width: 366px){
+    .copy, .copyy{
+        margin-left: 70px;
+    }
+}

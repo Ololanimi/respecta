@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;600;700&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;600;700&family=Roboto:wght@300;400&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300&family=Montserrat:wght@200;300;500;600;700&family=Roboto:wght@300;400&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300&family=Montserrat:wght@200;300;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;1,100&family=Satisfy&display=swap');
+.edit-container{
+    height: 100vh;
+    background: #FB8C00;
+    align-items: center;
+    justify-content: center;
+}
+.logop{
+    cursor: pointer;
+    font-size: 35px;
+    color: #fff !important;
+    font-family: "Satisfy", sans-serif;
+    text-align: center;
+    padding-top: 10px;
+}
+edit
+.form-edit{
+    width: 430px;
+    height: 86.8vh;
+    background: #fff;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.form-edit p{
+    padding: 20px;
+    font-size: 21px;
+    font-family: "Montserrat", sans-serif;
+    color: #463D3D;
+    font-weight: 500;
+}
+.inside-edit{
+    margin: 0 auto;
+    height: 76vh;
+    width: 370px;
+}
+.icon-edit{
+    width: 30px;
+    height: 30px;
+    background: #FB8C00;
+    text-align: center;
+    border-radius: 50%;
+    padding: 4px;
+    color: #fff;
+    margin: -26px 60px;
+    position: absolute;
+}
+e
+.img-edit{
+    margin-left: 130px;
+}
+.img-edit img{
+    width: 39%;
+    position: relative;
+}
+.button-edit{
+    height: 30px;
+    text-align: center;
+    margin: 20px 140px;
+    width: 25%;
+    padding: 7px;
+    color: #fff;
+    background: #FB8C00;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .button-edit:hover{
+    background: #d37503;
+    transition: 0.5s;
+  }
+  @media  screen and (max-width: 375px){
+      .edit-container{
+          height: 125vh;
+      }
+      .form-edit{
+          width: 85%;
+         height: 90vh;
+      }
+      .img-edit{
+          margin-left: 100px;
+      }
+      .Boxx{
+          width: 90% !important;
+          margin-left: 25px !important;
+      }
+      .mola{
+          width: 78% !important;
+      }
+      .meeow{
+          width: 70% !important;
+          margin-left: 30px !important;
+      }
+      .button-edit{
+          margin-left: 120px;
+      }
+  }

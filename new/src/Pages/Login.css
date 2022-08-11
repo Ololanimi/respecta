@@ -1,0 +1,39 @@
+.forgot{
+    text-decoration: none;
+}
+.forgot p{
+    color: #ec8405;
+    font-size: 15px;
+    margin-left: 2px;
+}
+.sep{
+    width: 350px;
+}
+.by{
+    margin-left: 50px !important;
+    margin-top: -10px !important;
+    font-size: 11px;
+}
+@media  screen and (max-width: 375px){
+    .textfie{
+        width: 270px !important;
+        margin-left: -15px !important;
+    }
+    .forgot p{
+        padding-left: -50px !important;
+        font-size: 14px;
+    }
+    .textfi{
+        width: 75% !important;
+    }
+    .by{
+        margin-left: 25px !important;
+    }
+    .oo{
+        margin-right: 15px !important;
+    }
+    .oiv{
+        width: 103%;
+        margin-left: -10px;
+    }
+}

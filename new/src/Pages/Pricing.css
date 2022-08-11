@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;600;700&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;600;700&family=Roboto:wght@300;400&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300&family=Montserrat:wght@200;300;500;600;700&family=Roboto:wght@300;400&family=Satisfy&display=swap');
+.Header {
+    position: fixed;
+    top: 0; /* Stick it to the top */
+    max-height: 65px;
+    width: 100vw;
+    z-index: 9996;
+  
+    display: grid;
+    grid-template-areas: "logo nav";
+  
+    /* Cosmetics */
+    background-color:#FB8C00;
+  }
+  
+  .Logo {
+    grid-area: logo;
+    height: 70px;
+  }
+  
+  .Nav {
+    display: grid;
+    grid-area: nav;
+    grid-template-columns: repeat(4, auto);
+    align-items: center;
+    justify-items: center;
+    grid-gap: 20px;
+  }
+  .Nav Link {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.5s;
+    text-decoration: none;
+  }
+  .needed:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+  }
+  .needed{
+      color: #fff;
+      font-weight: 400 !important;
+  }
+  
+  .Burger {
+    display: none;
+    grid-area: burger;
+    margin: 0 20px 0 0;
+    padding: 0;
+    justify-self: end;
+    font-size: 40px;
+    border: none;
+    background: none;
+    outline: none;
+    transition: 0.1s;
+  }
+  .Burger:active {
+    transform: scale(1.2);
+  }
+  
+  @media (max-width: 700px) {
+    .Header {
+      grid-template-areas: "logo burger" "nav nav";
+    }
+    .Nav {
+      grid-template-rows: repeat(4, auto);
+      grid-template-columns: none;
+      grid-row-gap: 20px;
+  
+      padding: 30px 0 30px;
+      background: rgba(40, 44, 47, 0.95);
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+    .Burger {
+      display: inline;
+    }
+  }
+  
+  .NavAnimation-enter {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  .NavAnimation-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 350ms, transform 350ms;
+  }
+  .NavAnimation-exit {
+    opacity: 1;
+  }
+  .NavAnimation-exit-active {
+    opacity: 0;
+    transform: scale(0.5);
+    transition: opacity 350ms, transform 350ms;
+  }
+.pricing{
+    margin: auto;
+    width: 50%;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.pricing h1{
+    font-family: "Hind Vadodara", sans-serif;
+    color: #463D3D;
+}
+.pricing p{
+    line-height: 30px;
+    color: #6d6666;
+    font-family: "Hind Vadodara", sans-serif;
+}
+.pops{
+    margin-top: 50px;
+}
+.radio-part{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    cursor: pointer;
+    width: 65%;
+    height: 65px;
+    border-radius: 8px;
+    background: transparent;
+    border: 1px solid #767070;
+}
+.first-radio{
+    display: flex;
+    padding-top: 15px;
+    margin-left: 20px;
+    flex-direction: column;
+    cursor: pointer;
+    height: 60px;
+}
+.hund{
+    font-size: 23px;
+    margin-top: -8px;
+    margin-right: 4.5em;
+    font-family: "Hind Vadodara", sans-serif;
+    font-weight: 600 !important;
+}
+.crr{
+    font-size: 12px;
+    padding-left: -15px;
+    margin-top: -7px;
+    font-weight: 300 !important;
+}
+.cro{
+    font-size: 12px;
+    margin-right: -58px;
+    margin-top: -7px;
+}
+.radio-part input{
+    width: 34px;
+    height: 34px;
+    margin-left: -9em;
+    color: #FB8C00;
+    cursor: pointer;
+}
+@media  screen and (max-width: 375px){
+  .pricing h1{
+    font-size: 22px;
+    width: 250px;
+    margin-left: -30px !important;
+  }
+  .pops{
+    width: 160%;
+    margin-left: -60px !important; 
+  }
+  .radio-part{
+    width: 180%;
+    padding-left: 70px;
+    margin-left: -75px;
+  }
+  .option{
+    padding-left: 60px !important;
+  }
+  .radio-part input{
+    width: 8%;
+    margin-left: -115px;
+  }
+  .hund{
+    font-size: 20px;
+  }
+  .crr{
+    padding-left: 25px;
+  }
+  .cro{
+    padding-left: 7px;
+    font-size: 11px;
+  }
+  .onm{
+    margin-left: -125px !important;
+  }
+  .mmo{
+    padding-left: 15px !important;
+  }
+  .first-radio{
+    margin-left: -5px !important;
+  }
+}

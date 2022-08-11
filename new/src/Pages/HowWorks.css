@@ -1,0 +1,71 @@
+.how-page-text{
+    font-weight: 700;
+    font-size: 3.8rem;
+    color: white;
+    line-height: 59px;
+    margin-top: 220px;
+    letter-spacing: 3px;
+    padding: 0 450px;
+    white-space: nowrap;
+    font-family: "Montserrat", sans-serif;
+}
+how
+.home-loved-text{
+    font-weight: 600;
+    font-size: 2.7rem;
+    white-space: nowrap;
+    text-transform: inherit;
+    color: #FB8C00;
+    line-height: 43px;
+    margin-left: 270px;
+    margin-top: 60px;
+    font-family: "Montserrat", sans-serif;
+}
+.cc{
+    text-align: center;
+}
+.loop{
+    margin-top: 15px;
+    margin-left: 80px;
+    font-family: "Roboto", sans-serif;
+}
+.user-profil{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid yellow; */
+    width: 100%;
+}
+.user-profil img{
+    width: 65px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-top: -4px;
+}
+@media  screen and (max-width: 375px){
+    .how-page-text{
+        font-size: 35px;
+        padding: 0 3px 9px 20px ;
+        line-height: 30px;
+    }
+    .img-koko img{
+      width: 70% !important;
+    }
+    .michael{
+        padding-bottom: 30px;
+        margin-right: 130px ;
+    }
+    .user-profil{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: -300px;
+    }
+    .loop{
+        display: inline;
+    }
+}
+@media  screen and (max-width: 366px){
+    .michael{
+        width: 90%;
+        font-size: 15px;
+    }
+}
